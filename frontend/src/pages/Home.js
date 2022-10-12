@@ -1,5 +1,7 @@
 
 import React, { useState, useEffect } from 'react'
+import "./Global.css"
+import "./Home.css"
 
 const Home: React.FC = () => {
     useEffect(() => {
