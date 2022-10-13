@@ -1,0 +1,22 @@
+
+/*
+font options:
+    Light 300
+    Regular 400
+    Medium 500
+    Bold 700
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+.home-body {   
+    --margin-size: 100px;    
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: var(--margin-size);
+    margin-right: var(--margin-size);
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    height: 75vh;
+}
