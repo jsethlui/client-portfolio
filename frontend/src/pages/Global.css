@@ -1,9 +1,17 @@
 
 :root {
-    --light-green: rgb(73, 111, 83);
-    --pastel-green: rgb(74, 121, 108);
-    
-    --light-blue: rgb(67, 98, 122);
-    --ocean-blue: rgb(40, 65, 96);
-    --dark-blue: rgb(34, 34, 99);
+    /*source: https://www.schemecolor.com/light-webdesign.php;*/
+    --columbia-blue: rgb(192, 223, 217);
+    --platinum: rgb(233, 236, 230);
+    --jet-stream: rgb(188, 203, 201);
+    --ash-gray: rgb(170, 184, 182);
+    --davy-gray: rgb(84, 91, 90);
+
+    /*source: https://www.pinterest.com/pin/67202219424416430/;*/
+    --snowbound: rgb(223, 219, 211);
+    --gray-matters: rgb(162, 163, 158);
+    --gauntlet-gray: rgb(114, 110, 104);
+    --dovetail: rgb(138, 133, 128);
+    --eider-white: rgb(214, 210, 202);
+    --drizzle: rgb(133, 167, 164);
 }

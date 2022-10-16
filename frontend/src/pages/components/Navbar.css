@@ -1,0 +1,119 @@
+
+/*
+font options:
+    Light 300
+    Regular 400
+    Medium 500
+    Bold 700
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+
+    height: 15vh;
+    width: 100%;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    /*background: var(--jet-stream);*/
+}
+
+.navbar-link {
+    position: relative;    
+    display: block;
+    padding-top: 0;
+    padding-bottom: 2.5px;
+    padding-left: 0;
+    padding-right: 0;
+
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-link::after {
+    --duration: 0.65s;
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    height: 1px;
+    width: 100%;
+
+    background-color: black;
+    opacity: 0;
+    transition: opacity var(--duration), transform var(--duration);
+}
+
+.navbar-link:hover::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);    
+}
+
+.left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+}
+
+.left a, .right a {
+    --length: 10px;
+    margin-left: var(--length);
+    margin-right: var(--length);
+}
+
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+}
+
+.links-wrapper {
+    --length: 20px;
+
+    display: flex;
+    justify-content: row;
+    align-items: center;    
+    height: 100%;
+    width: auto;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: var(--length);
+    margin-right: calc(var(--length) + 5px);
+}
+
+.contact-link {  
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    opacity: 1;
+    transition: 0.65s;
+
+    border-radius: 15px;
+    background: var(--drizzle);
+
+    color: var(--platinum);
+    text-decoration: none;      
+}
+
+.contact-link:hover {
+    -webkit-transition: opacity 0.75;
+    -moz-transition: opacity 0.75;
+    -ms-transition: opacity 0.75;
+    -o-transition: opacity 0.75;
+    opacity: 0.8;
+}
