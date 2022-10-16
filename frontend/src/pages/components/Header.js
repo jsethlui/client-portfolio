@@ -31,6 +31,10 @@ const Header: React.FC = () => {
                         <div className="avatar-wrapper">
 
                         </div>
+
+                        <div className="about-wrapper">
+
+                        </div>
                     </div>
                 )
             })}
