@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
             </div>
 
             <div className="right links-wrapper">
-                <a href="ma&#105;l&#116;&#111;&#58;h%61%7&#50;&#109;%&#54;F&#110;%79&#46;&#99;%6&#56;a&#110;6&#64;&#103;%6&#68;%6&#49;%69l&#46;&#99;&#111;m" className="contact-link">CONTACT</a>
+                <a href="ma&#105;l&#116;&#111;&#58;h%61%7&#50;&#109;%&#54;F&#110;%79&#46;&#99;%6&#56;a&#110;6&#64;&#103;%6&#68;%6&#49;%69l&#46;&#99;&#111;m" className="contact-link" target="_blank">CONTACT</a>
             </div>
         </div>
     )

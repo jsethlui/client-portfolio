@@ -1,0 +1,38 @@
+
+@keyframes slide-in {
+    from {
+        left: -400px
+    }
+    
+    to {
+        left: 7.5%
+    }
+}
+
+.header-wrapper {
+    position: absolute;
+    top: 15vh;
+    left: 0;
+
+    height: 70vh;
+    width: 100%;
+    /*background: green;*/
+}
+
+.avatar-wrapper {
+    position: relative;
+    top: 15%;
+    left: -500px;
+
+    height: 60vh;
+    width: 45%;
+
+    border-radius: 12.5px;
+    background: var(--ash-gray);
+
+    animation-name: slide-in;
+    animation-duration: 0.55s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;    
+    animation-fill-mode: forwards;   
+}

@@ -27,9 +27,11 @@ const Header: React.FC = () => {
         <div>
             {apiData.map((client) => {
                 return(
-                    <div>
+                    <div className="header-wrapper">
+                        <div className="avatar-wrapper">
+
+                        </div>
                     </div>
-                    /*<p>Hello, I'm {client.first_name} {client.last_name}</p>*/
                 )
             })}
         </div>
