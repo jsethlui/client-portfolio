@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { Button } from '@mantine/core';
 import "./Navbar.css"
 
 const Navbar: React.FC = () => {

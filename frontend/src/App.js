@@ -1,5 +1,6 @@
 
 import React, { useEffect } from "react";
+import { MantineProvider } from '@mantine/core';
 import "./App.css";
 import Main from "./Main";
 
@@ -9,9 +10,11 @@ const App: React.FC = () => {
     }, [])
 
     return (
-        <div className="App">
-            <Main />
-        </div>
+        <MantineProvider withGlobalStyles withNormalizeCSS>
+            <div className="App">
+                <Main />
+            </div>
+        </MantineProvider>
   );
 };
 
